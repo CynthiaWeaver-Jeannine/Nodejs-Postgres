@@ -1,0 +1,15 @@
+Data on the web
+Hypertext Transfer Protocol -HTTP
+A Protocol is an official systerm of rules for the web.
+Two primary HTTP requests: Get (asks for data from the web server) and Post(sends data the web server)
+Other HTTP requests. Delete, Put(updates an existing resource), Head(only gets info about the http config of a resources), Options(returns the http method), Connect(gets more specialized access to a web server's resources)
+API application Programming Interface a web api collects a set of http  requests.
+
+### The Event Loop  
+Node features concurrent execution  
+Node is non-blocking- http requests, database operations, disk I/Os are non-blocking
+The node event loop - a message enqueues with each callback. These messages organize in a first-in-first-out queue (FIFO)
+
+
+### Express  
+Fast, unopinionated, minimalist web framework. It is fast and unopinionated(allows for flexibility). It is a web framework, great for making APIs and routing. 
